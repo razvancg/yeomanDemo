@@ -1,0 +1,6 @@
+<dl class="dl-horizontal">
+	<ng-virtual ng-repeat="episode in episodesList">
+        <dt><a href="#/movies/{{movieId}}/{{seasonId}}/{{episode.episode}}">S{{episode.season}}E{{episode.episode}}</a></dt>
+        <dd><span ng-bind-html='episode.title | boldRed'></span> - <span sample-directive sample-time-aiered="{{episode.first_aired_utc}}"></span></dd>
+    </ng-virtual>
+</dl>

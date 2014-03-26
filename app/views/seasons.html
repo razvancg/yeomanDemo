@@ -1,0 +1,6 @@
+<dl class="dl-horizontal">
+	<ng-virtual ng-repeat="season in seasonsList">
+        <dt><a href="#/movies/{{movieId}}/{{season.season}}">Season: {{season.season}}</a></dt>
+        <dd>Episodes Num.:{{season.episodes}} <img src="{{season.poster}}" style="width: 200px;padding-bottom: 20px;"><br></dd>
+    </ng-virtual>
+</dl>

@@ -1,0 +1,6 @@
+<dl class="dl-horizontal">
+	<ng-virtual ng-repeat="movie in moviesList">
+        <dt><a href="#/movies/{{movie.id}}">{{movie.name}}</a></dt>
+        <dd>{{movie.description}}</dd>
+    </ng-virtual>
+</dl>
