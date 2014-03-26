@@ -1,0 +1,27 @@
+
+npm install -g generator-angular
+
+
+
+
+yo angular:app imdbApp
+
+yo angular:route movies
+
+yo angular:controller movies
+
+yo angular:directive sampleDirective
+
+yo angular:filter boldRed
+
+yo angular:controller seasons
+
+yo angular:controller episode
+
+yo angular:service getepisode
+
+yo angular:factory getseasons
+
+yo angular:provider getmovies
+
+yo angular:view seasons
