@@ -1,4 +1,4 @@
 yeomanDemo
 ==========
 
-This is a small application created useing Yeoman
+This is a small application created using Yeoman
